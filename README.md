@@ -5,7 +5,7 @@ Robot vacuum
 To build a robot vacuum using a 3d printer for the body and an arduino for the brains.
 
 ## A list of things
-Initial dimensions: radius: 200mm, height 80mm (80mm is short enough to fit under my couch).
+Initial dimensions: radius: 200mm, height 70mm (80mm is short enough to fit under my couch, 70mm + 10 mm of clearance).
 
 ### Parts
 - 1x Arduino uno
