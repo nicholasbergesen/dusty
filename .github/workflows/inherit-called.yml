@@ -4,12 +4,12 @@ on:
   workflow_call:
 jobs:
   called:
-    runs-on: ubuntu-latest
+    runs-on: ms-nick
     steps:
       - run: echo ${{ secrets.REPO_SECRET }}
       - run: echo ${{ secrets.ORG_SECRET }}
   env_job:
-    runs-on: ubuntu-latest
+    runs-on: ms-nick
     environment: production
     steps:
       - run: echo ${{ secrets.PROD_SECRET }}
